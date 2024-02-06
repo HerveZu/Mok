@@ -23,7 +23,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Mok\Mok.csproj" />
+        <ProjectReference Include="..\..\Mok\Mok.csproj" OutputItemType="Analyzer"/>
     </ItemGroup>
 
 </Project>

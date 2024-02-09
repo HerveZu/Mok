@@ -3,7 +3,7 @@
 namespace Mok;
 
 [PublicAPI]
-[AttributeUsage(AttributeTargets.Field | AttributeTargets.Method)]
+[AttributeUsage(AttributeTargets.Field)]
 public sealed class UseMockAttribute : Attribute
 {
     public required string Identifier { get; init; }
